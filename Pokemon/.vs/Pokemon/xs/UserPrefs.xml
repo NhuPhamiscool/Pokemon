@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{1875F925-DC71-4A2F-85B0-E10CCD256A92}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Controllers/PokemonController.cs">
+    <Files>
+      <File FileName="API/Controllers/PokemonController.cs" Line="34" Column="4" />
+      <File FileName="API/Repositories/PokemonRepository.cs" Line="99" Column="15" />
+      <File FileName="API/Program.cs" Line="10" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Pokemon" expanded="True">
+            <Node name="API">
+              <Node name="AutoGenModels" expanded="True" />
+              <Node name="Controllers">
+                <Node name="PokemonController.cs" selected="True" />
+              </Node>
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/nhupham/Projects/Pokemon/API/AutoGenModels/Pokemon.cs" relfile="API/AutoGenModels/Pokemon.cs" line="5" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
