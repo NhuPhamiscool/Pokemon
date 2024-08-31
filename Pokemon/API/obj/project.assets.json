@@ -2963,11 +2963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nhupham/Projects/Pokemon/API/API.csproj",
+      "projectUniqueName": "/Users/nhupham/Projects/Pokemon_CICD_GA/Pokemon/Pokemon/API/API.csproj",
       "projectName": "API",
-      "projectPath": "/Users/nhupham/Projects/Pokemon/API/API.csproj",
+      "projectPath": "/Users/nhupham/Projects/Pokemon_CICD_GA/Pokemon/Pokemon/API/API.csproj",
       "packagesPath": "/Users/nhupham/.nuget/packages/",
-      "outputPath": "/Users/nhupham/Projects/Pokemon/API/obj/",
+      "outputPath": "/Users/nhupham/Projects/Pokemon_CICD_GA/Pokemon/Pokemon/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nhupham/.nuget/NuGet/NuGet.Config"
