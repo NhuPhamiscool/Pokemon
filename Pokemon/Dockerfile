@@ -3,6 +3,10 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0@sha256:d32bd65cf5843f413e81f5d917057c82da9
 
 # Copy everything and publish the release (publish implicitly restores and builds)
 WORKDIR /app
+COPY *.csproj ./
+RUN dotnet restore
+
+# Copy the rest of the application code to the container
 COPY . ./
 RUN dotnet publish -c Release -o out
 
