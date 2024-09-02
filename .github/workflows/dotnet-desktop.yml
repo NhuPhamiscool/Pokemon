@@ -119,3 +119,11 @@ jobs:
       with:
         name: MSIX Package
         path: ${{ env.Wap_Project_Directory }}\AppPackages
+
+    - name: Build and Push Docker image
+      uses: docker/build-push-action@v6
+      with:
+        registry: docker.io
+        image: olivia957/pokemon-api
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
