@@ -135,6 +135,7 @@ jobs:
     - name: Build and Push Docker image
       uses: docker/build-push-action@v6
       with:
-        context: "{{defaultContext}}:mysubdir"
+        context: .
+        file: ./Dockerfile
         push: true
         tags: olivia957/pokemon-api:latest
