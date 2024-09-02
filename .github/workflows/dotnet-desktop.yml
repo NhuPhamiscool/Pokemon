@@ -136,6 +136,6 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         context: .
-        file: ./Dockerfile
+        file: ./Pokemon/Dockerfile
         push: true
         tags: olivia957/pokemon-api:latest
